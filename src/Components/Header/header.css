@@ -1,10 +1,9 @@
-/* RESET */
-    *,
-    *::before,
-    *::after {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=SUSE:wght@100..800&display=swap');
+/* GENERAL STYLES */
+    span{
+        scale: 1.5;
     }
 /*  */
 
@@ -17,9 +16,14 @@
         align-items: center;
     }
 
-    .header a:first-child{
+    .logo{
         color: black;
         text-decoration: none;
+
+        font-size: 25px;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
     }
 /*  */
 
@@ -47,23 +51,32 @@
     }
 
     .navLink{
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400px;
+        font-style: normal;
 
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         gap: 1rem;
     }
+
+    .navLink{
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+    }
     /* RESPONSIVE MOBILE */
     @media(max-width: 800px){
         .navbar{
 
 
-            position: sticky;
+            position: static;
             top: 0;
         }
         .navList{
-            background-color: antiquewhite;
-
+            backdrop-filter: blur(10px);
             border-left: 2px solid black;
 
             height: 100vh;
@@ -98,6 +111,11 @@
 
         #sidebar:checked ~ .navList{
             right: 0;
+            transition: 800ms ease-in-out;
+        }
+
+        #sidebar:checked ~ .menu{
+            display: none;
             transition: 800ms ease-in-out;
         }
     }

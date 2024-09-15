@@ -4,13 +4,13 @@ import './header.css'
 function Header() {
   return (
     <header className='header'>
-        <a href="">
+        <a href="" className='logo'>
             <h2>Uni List</h2>
         </a>
 
         <nav className='navbar'>
             <input type="checkbox" id='sidebar'/>
-            <label htmlFor="sidebar">
+            <label htmlFor="sidebar" className='menu'>
                 <span class="material-symbols-outlined">
                     menu_open
                 </span>

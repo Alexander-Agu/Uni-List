@@ -7,3 +7,8 @@
     box-sizing: border-box;
   }
 /*  */
+/* GENERAL STYLES */
+  html {
+    scroll-behavior: smooth;
+  }
+/*  */
