@@ -27,12 +27,12 @@
     }
 
     .about p{
-    font-size: 15px;
-    letter-spacing: 1px;
-    font-family: "SUSE", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400px;
-    font-style: normal;
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: "SUSE", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400px;
+        font-style: normal;
     }
     /* RESPONSIVE MOBILE */
     @media(max-width: 800px){

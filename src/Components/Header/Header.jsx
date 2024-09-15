@@ -11,14 +11,14 @@ function Header() {
         <nav className='navbar'>
             <input type="checkbox" id='sidebar'/>
             <label htmlFor="sidebar" className='menu'>
-                <span class="material-symbols-outlined">
+                <span className="material-symbols-outlined">
                     menu_open
                 </span>
             </label>
 
             <ul className='navList'>
                 <label htmlFor="sidebar">
-                    <span class="material-symbols-outlined">
+                    <span className="material-symbols-outlined">
                         close
                     </span>
                 </label>
@@ -26,7 +26,7 @@ function Header() {
 
                 <li className='navItem'>
                     <a href="#" className='navLink'>
-                        <span class="material-symbols-outlined">
+                        <span className="material-symbols-outlined">
                             roofing
                         </span>
 
@@ -36,7 +36,7 @@ function Header() {
 
                 <li className='navItem'>
                     <a href="#about" className='navLink'>
-                        <span class="material-symbols-outlined">
+                        <span className="material-symbols-outlined">
                             psychology_alt
                         </span>
 
