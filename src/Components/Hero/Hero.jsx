@@ -8,7 +8,7 @@ function Hero() {
             <h1 className='title'>University Lists</h1>
 
             <div className="contacts">
-                <a href="">About</a>
+                <a href="#about">About</a>
                 <a href="">Get Contact</a>
             </div>
         </div>

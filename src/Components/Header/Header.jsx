@@ -35,7 +35,7 @@ function Header() {
                 </li>
 
                 <li className='navItem'>
-                    <a href="" className='navLink'>
+                    <a href="#about" className='navLink'>
                         <span class="material-symbols-outlined">
                             psychology_alt
                         </span>
