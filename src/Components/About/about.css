@@ -36,7 +36,9 @@
     }
     /* RESPONSIVE MOBILE */
     @media(max-width: 800px){
-        
+        .about {
+            height: 300px;
+        }
     }
     @media(max-width: 500px){
         .about{

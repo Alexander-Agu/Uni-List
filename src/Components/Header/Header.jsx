@@ -43,6 +43,16 @@ function Header() {
                         <p>About</p>
                     </a>
                 </li>
+
+                <li className='navItem'>
+                    <a href="#app" className='navLink'>
+                        <span className="material-symbols-outlined">
+                            psychology_alt
+                        </span>
+
+                        <p>App</p>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
