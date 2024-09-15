@@ -47,7 +47,7 @@ function Header() {
                 <li className='navItem'>
                     <a href="#app" className='navLink'>
                         <span className="material-symbols-outlined">
-                            psychology_alt
+                            play_arrow
                         </span>
 
                         <p>App</p>

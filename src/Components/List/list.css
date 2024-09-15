@@ -1,0 +1,28 @@
+.listContainer{
+    margin-top: 20px;
+    width: 350px;
+    height: 160px;
+
+    border-radius: 20px;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.808);
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.uni{
+    font-size: 30px;
+}
+
+.listContainer a{
+    letter-spacing: 1px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    color: white;
+}

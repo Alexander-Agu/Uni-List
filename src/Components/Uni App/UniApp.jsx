@@ -1,7 +1,7 @@
 import React from 'react'
 import Form from '../Form/Form'
 import './uniapp.css'
-
+import List from '../List/List';
 
 const headline = document.getElementById('headline');
 function UniApp() {
