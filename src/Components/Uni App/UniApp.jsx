@@ -11,6 +11,7 @@ function UniApp() {
         <p id='headline'>To get university lists fill in the country in the input box and get the uni list</p>
 
         {<Form />}
+        {<List />}
     </article>
   )
 }

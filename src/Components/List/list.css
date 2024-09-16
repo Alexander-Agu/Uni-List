@@ -15,6 +15,15 @@
     align-items: center;
 }
 
+.listContainer h2{
+    padding: 5px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .uni{
     font-size: 30px;
 }
