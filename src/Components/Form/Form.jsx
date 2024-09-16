@@ -4,25 +4,8 @@ import './form.css'
 
 const headline = document.getElementById('headline');
 
-// Gets the univerity api and return the list
-const universityList = async (country)=>{
-  try{
-    const getUniversityAPI = await fetch(`http://universities.hipolabs.com/search?country=South+Africa`);
-    
-    const getList = getUniversityAPI.json();
-
-    return getList;
-
-  } catch{
-    headline.textContext = 'Error Found, please try again'
-  };
-};
-
-export const getUniList = await universityList();
-
-
 function Form() {
-    const [form, setForm] = useState('');
+  const [form, setForm] = useState('');
 
   return (
     <div className='form' id='app'>
@@ -32,5 +15,4 @@ function Form() {
     </div>
   )
 }
-
 export default Form

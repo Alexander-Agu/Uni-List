@@ -1,24 +1,22 @@
 import React from 'react'
 import './list.css'
 
-  // Gets the univerity api and return the list
-  const universityList = async (country)=>{
-    try{
-      const getUniversityAPI = await fetch(`http://universities.hipolabs.com/search?country=South+Africa`);
-      
-      const getList = getUniversityAPI.json();
+// Gets the univerity api and return the list
+const universityList = async (country)=>{
+  try{
+    const getUniversityAPI = await fetch(`http://universities.hipolabs.com/search?country=South Africa`);
+    
+    const getList = getUniversityAPI.json();
 
-      return getList;
+    return getList;
 
-    } catch{
-      headline.textContext = 'Error Found, please try again'
-    };
+  } catch{
+    headline.textContext = 'Error Found, please try again'
   };
+};
+const getUniList = await universityList();
 
-  const getUniList = await universityList();
-  console.log(getUniList)
 function List() {
-
   return getUniList.map(x =>{
     return <div className='listContainer' key={x.domains[0]}>
         <h2 className='uni'>{x.name}</h2>
@@ -29,8 +27,6 @@ function List() {
         </div>
     </div>
   })
-
-  
 }
 
 export default List
